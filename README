@@ -1,0 +1,10 @@
+REQUIREMENT:
+jQuery
+
+SAMPLE USAGE:
+Function must be binded to a dom element. This makes the plugin very light and allows you to use it any way you want. Here are some examples:
+
+	$('#add').bind('click', function(){
+		$('#selector').add_option({value: 'awesome', display: 'Awesome Added Option!'});
+		return false; // So link doesn't execute
+	});
